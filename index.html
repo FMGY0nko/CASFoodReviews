@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kristian Bek">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Food Reviews of international restaurants and fast food places in Ljubljana">
+    <meta name="keywords" content="Food, Reviews, Ljubljana, International">
+
+    <title>Ljubljana Reviews</title>
+    <link rel="icon" type="image/x-icon" href="src/site.ico">
+    <link rel="stylesheet" href="Food_Reviews.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header-text">
+            <h1>Food Reviews</h1>
+        </div>
+        <div class="logo">
+            <img src="src/site.ico" alt="Food Reviews Logo">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Pekarnas</button>
+                        <div class="dropdown-content">
+                            <a href="#" onclick="total('p1', 'map1', 46.05208156625012, 14.504815092701358)">Pekarna 1</a>
+                            <a href="#" onclick="total('p2', 'map2', 46.05208156625012, 14.504815092701358)">Pekarna 2</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Restaurants</button>
+                        <div class="dropdown-content">
+                            <a href="#" onclick="total('r1', 'map3', 46.05208156625012, 14.504815092701358)">Restaurant 1</a>
+                            <a href="#" onclick="total('r2', 'map4', 46.05208156625012, 14.504815092701358)">Restaurant 2</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Fast Food</button>
+                        <div class="dropdown-content">
+                            <a href="#" onclick="total('f1', 'map5', 46.05208156625012, 14.504815092701358)">Fast Food 1</a>
+                            <a href="#" onclick="total('f2', 'map6', 46.05208156625012, 14.504815092701358)">Fast Food 2</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <img id="back" src="src/video.gif"></img>
+
+    <div id="prev" class="restshape" align="center">
+        <h1>TO FIND A REVIEW USE THE NAVIGATION BAR ABOVE</h1>
+    </div>
+
+    <div id="p1" class="rshape">
+        <h1>P1</h1>
+        <h1 class="trating"><sup>7</sup>/<sub>10</sub></h1>
+        <div id="map1"></div>
+        <div class="frev">
+            <h4>Food <sup>7</sup>/<sub>10</sub></h4>
+            <p>
+                EXAMPLE TEXT: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat suscipit lacus eget convallis. Aliquam finibus, erat quis elementum lobortis, nunc tortor accumsan eros, interdum posuere justo sem sit amet dolor. Morbi suscipit convallis erat ac condimentum. Cras convallis risus id lobortis vestibulum. Nam porta mi sit amet sollicitudin mollis. Quisque ut aliquam ligula. Fusce ultricies varius mi sed ornare. Aenean aliquet dui eget turpis faucibus accumsan. Vestibulum quis augue rutrum, euismod quam ut, hendrerit odio. Aliquam nec nisl vel augue ultricies tristique. Suspendisse maximus lectus id justo maximus, volutpat iaculis turpis luctus. Pellentesque ultrices sagittis nisi, id varius velit efficitur at. Mauris tellus dui, fermentum at quam non, tempor sagittis elit. Proin tempor mollis scelerisque. Pellentesque convallis vitae turpis ut molestie.
+            </p>
+        </div>
+        <div class="srev">
+            <h4>Service <sup>7</sup>/<sub>10</sub></h4>
+            <p>
+                Cras efficitur vel neque eu mollis. Sed interdum porta est, nec iaculis arcu eleifend placerat. In malesuada dignissim eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean et nunc accumsan, ultricies nisl nec, euismod metus. Nunc quis enim eget est facilisis ornare. Nulla eu scelerisque dui, vitae mattis libero. Integer auctor neque vitae dolor pulvinar fermentum.
+            </p>
+        </div>
+        <img src="src/sample.jpg" class="fimg">
+    </div>
+
+    <div id="p2" class="rshape">
+        <h1>P2</h1>
+        <h1 class="trating"><sup>7</sup>/<sub>10</sub></h1>
+        <div id="map2"></div>
+        <div class="frev">
+            <h4>Food <sup>7</sup>/<sub>10</sub></h4>
+            <p>
+                EXAMPLE TEXT: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat suscipit lacus eget convallis. Aliquam finibus, erat quis elementum lobortis, nunc tortor accumsan eros, interdum posuere justo sem sit amet dolor. Morbi suscipit convallis erat ac condimentum. Cras convallis risus id lobortis vestibulum. Nam porta mi sit amet sollicitudin mollis. Quisque ut aliquam ligula. Fusce ultricies varius mi sed ornare. Aenean aliquet dui eget turpis faucibus accumsan. Vestibulum quis augue rutrum, euismod quam ut, hendrerit odio. Aliquam nec nisl vel augue ultricies tristique. Suspendisse maximus lectus id justo maximus, volutpat iaculis turpis luctus. Pellentesque ultrices sagittis nisi, id varius velit efficitur at. Mauris tellus dui, fermentum at quam non, tempor sagittis elit. Proin tempor mollis scelerisque. Pellentesque convallis vitae turpis ut molestie.
+            </p>
+        </div>
+        <div class="srev">
+            <h4>Service <sup>7</sup>/<sub>10</sub></h4>
+            <p>
+                Cras efficitur vel neque eu mollis. Sed interdum porta est, nec iaculis arcu eleifend placerat. In malesuada dignissim eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean et nunc accumsan, ultricies nisl nec, euismod metus. Nunc quis enim eget est facilisis ornare. Nulla eu scelerisque dui, vitae mattis libero. Integer auctor neque vitae dolor pulvinar fermentum.
+            </p>
+        </div>
+        <img src="src/sample.jpg" class="fimg">
+    </div>
+
+    <div id="r1" class="rshape">
+        <h1>R1</h1>
+        <h1 class="trating" ><sup>7</sup>/<sub>10</sub></h1>
+        <div id="map3"></div>
+        <div class="frev">
+            <h4>Food <sup>7</sup>/<sub>10</sub></h4>
+            <p>
+                EXAMPLE TEXT: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat suscipit lacus eget convallis. Aliquam finibus, erat quis elementum lobortis, nunc tortor accumsan eros, interdum posuere justo sem sit amet dolor. Morbi suscipit convallis erat ac condimentum. Cras convallis risus id lobortis vestibulum. Nam porta mi sit amet sollicitudin mollis. Quisque ut aliquam ligula. Fusce ultricies varius mi sed ornare. Aenean aliquet dui eget turpis faucibus accumsan. Vestibulum quis augue rutrum, euismod quam ut, hendrerit odio. Aliquam nec nisl vel augue ultricies tristique. Suspendisse maximus lectus id justo maximus, volutpat iaculis turpis luctus. Pellentesque ultrices sagittis nisi, id varius velit efficitur at. Mauris tellus dui, fermentum at quam non, tempor sagittis elit. Proin tempor mollis scelerisque. Pellentesque convallis vitae turpis ut molestie.
+            </p>
+        </div>
+        <div class="srev">
+            <h4>Service <sup>7</sup>/<sub>10</sub></h4>
+            <p>
+                Cras efficitur vel neque eu mollis. Sed interdum porta est, nec iaculis arcu eleifend placerat. In malesuada dignissim eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean et nunc accumsan, ultricies nisl nec, euismod metus. Nunc quis enim eget est facilisis ornare. Nulla eu scelerisque dui, vitae mattis libero. Integer auctor neque vitae dolor pulvinar fermentum.
+            </p>
+        </div>
+        <img src="src/sample.jpg" class="fimg">
+    </div>
+
+    <div id="r2" class="rshape">
+        <h1>R2</h1>
+        <h1 class="trating" ><sup>7</sup>/<sub>10</sub></h1>
+        <div id="map4"></div>
+        <div class="frev">
+            <h4>Food <sup>7</sup>/<sub>10</sub></h4>
+            <p>
+                EXAMPLE TEXT: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat suscipit lacus eget convallis. Aliquam finibus, erat quis elementum lobortis, nunc tortor accumsan eros, interdum posuere justo sem sit amet dolor. Morbi suscipit convallis erat ac condimentum. Cras convallis risus id lobortis vestibulum. Nam porta mi sit amet sollicitudin mollis. Quisque ut aliquam ligula. Fusce ultricies varius mi sed ornare. Aenean aliquet dui eget turpis faucibus accumsan. Vestibulum quis augue rutrum, euismod quam ut, hendrerit odio. Aliquam nec nisl vel augue ultricies tristique. Suspendisse maximus lectus id justo maximus, volutpat iaculis turpis luctus. Pellentesque ultrices sagittis nisi, id varius velit efficitur at. Mauris tellus dui, fermentum at quam non, tempor sagittis elit. Proin tempor mollis scelerisque. Pellentesque convallis vitae turpis ut molestie.
+            </p>
+        </div>
+        <div class="srev">
+            <h4>Service <sup>7</sup>/<sub>10</sub></h4>
+            <p>
+                Cras efficitur vel neque eu mollis. Sed interdum porta est, nec iaculis arcu eleifend placerat. In malesuada dignissim eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean et nunc accumsan, ultricies nisl nec, euismod metus. Nunc quis enim eget est facilisis ornare. Nulla eu scelerisque dui, vitae mattis libero. Integer auctor neque vitae dolor pulvinar fermentum.
+            </p>
+        </div>
+        <img src="src/sample.jpg" class="fimg">
+    </div>
+
+    <div id="f1" class="rshape">
+        <h1>F1</h1>
+        <h1 class="trating" ><sup>7</sup>/<sub>10</sub></h1>
+        <div id="map5"></div>
+        <div class="frev">
+            <h4>Food <sup>7</sup>/<sub>10</sub></h4>
+            <p>
+                EXAMPLE TEXT: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat suscipit lacus eget convallis. Aliquam finibus, erat quis elementum lobortis, nunc tortor accumsan eros, interdum posuere justo sem sit amet dolor. Morbi suscipit convallis erat ac condimentum. Cras convallis risus id lobortis vestibulum. Nam porta mi sit amet sollicitudin mollis. Quisque ut aliquam ligula. Fusce ultricies varius mi sed ornare. Aenean aliquet dui eget turpis faucibus accumsan. Vestibulum quis augue rutrum, euismod quam ut, hendrerit odio. Aliquam nec nisl vel augue ultricies tristique. Suspendisse maximus lectus id justo maximus, volutpat iaculis turpis luctus. Pellentesque ultrices sagittis nisi, id varius velit efficitur at. Mauris tellus dui, fermentum at quam non, tempor sagittis elit. Proin tempor mollis scelerisque. Pellentesque convallis vitae turpis ut molestie.
+            </p>
+        </div>
+        <div class="srev">
+            <h4>Service <sup>7</sup>/<sub>10</sub></h4>
+            <p>
+                Cras efficitur vel neque eu mollis. Sed interdum porta est, nec iaculis arcu eleifend placerat. In malesuada dignissim eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean et nunc accumsan, ultricies nisl nec, euismod metus. Nunc quis enim eget est facilisis ornare. Nulla eu scelerisque dui, vitae mattis libero. Integer auctor neque vitae dolor pulvinar fermentum.
+            </p>
+        </div>
+        <img src="src/sample.jpg" class="fimg">
+    </div>
+
+    <div id="f2" class="rshape">
+        <h1>F2</h1>
+        <h1 class="trating" ><sup>7</sup>/<sub>10</sub></h1>
+        <div id="map6"></div>
+        <div class="frev">
+            <h4>Food <sup>7</sup>/<sub>10</sub></h4>
+            <p>
+                EXAMPLE TEXT: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat suscipit lacus eget convallis. Aliquam finibus, erat quis elementum lobortis, nunc tortor accumsan eros, interdum posuere justo sem sit amet dolor. Morbi suscipit convallis erat ac condimentum. Cras convallis risus id lobortis vestibulum. Nam porta mi sit amet sollicitudin mollis. Quisque ut aliquam ligula. Fusce ultricies varius mi sed ornare. Aenean aliquet dui eget turpis faucibus accumsan. Vestibulum quis augue rutrum, euismod quam ut, hendrerit odio. Aliquam nec nisl vel augue ultricies tristique. Suspendisse maximus lectus id justo maximus, volutpat iaculis turpis luctus. Pellentesque ultrices sagittis nisi, id varius velit efficitur at. Mauris tellus dui, fermentum at quam non, tempor sagittis elit. Proin tempor mollis scelerisque. Pellentesque convallis vitae turpis ut molestie.
+            </p>
+        </div>
+        <div class="srev">
+            <h4>Service <sup>7</sup>/<sub>10</sub></h4>
+            <p>
+                Cras efficitur vel neque eu mollis. Sed interdum porta est, nec iaculis arcu eleifend placerat. In malesuada dignissim eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean et nunc accumsan, ultricies nisl nec, euismod metus. Nunc quis enim eget est facilisis ornare. Nulla eu scelerisque dui, vitae mattis libero. Integer auctor neque vitae dolor pulvinar fermentum.
+            </p>
+        </div>
+        <img src="src/sample.jpg" class="fimg">
+    </div>
+
+    <script src="Food_Reviews.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsT60n_Inp1oqeGCYIgBxXtBzu5inSx6w&callback=initMap&v=weekly"
+      defer
+    ></script>
+</body>
+
+</html>

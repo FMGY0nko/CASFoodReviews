@@ -92,6 +92,10 @@ p {
     z-index: 1;
 }
 
+.dropdown-content a:hover {
+    background-color: #dbdbdb;
+}
+
 .button {
     background-color: white;
     color: black;

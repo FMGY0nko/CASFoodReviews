@@ -1,7 +1,7 @@
 var x = 0;
 var temp = "";
 
-const ids = ['p1', 'p2', 'r1', 'r2', 'f1', 'f2'];
+const ids = ['p1', 'p2', 'r1', 'r2', 'r3', 'f1', 'f2'];
 
 function show(ido) {
     if (x == 0) {

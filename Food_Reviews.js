@@ -1,5 +1,5 @@
-var x = 0;
-var temp = "";
+let x = 0;
+let temp = "";
 
 const ids = ['p1', 'p2', 'r1', 'r2', 'r3', 'f1', 'f2'];
 

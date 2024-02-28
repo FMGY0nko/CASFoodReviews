@@ -18,7 +18,7 @@ header {
 
 .header-text h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 700;
     margin: 0;
     z-index: 1;
@@ -77,7 +77,7 @@ p {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    width: 15vw;
+    width: 12vw;
     z-index: 1;
 }
 
@@ -88,7 +88,7 @@ p {
     display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     z-index: 1;
 }
 
@@ -115,10 +115,11 @@ p {
 .dropbtn {
     background-color: #FBC05A;
     color: black;
+    width: 12vw;
     padding: 1.97vw;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 1.97vw;
+    font-size: 1.5vw;
     border: none;
     cursor: pointer;
     white-space: nowrap;
@@ -142,12 +143,19 @@ li {
 }
 
 #p1,
-#p2,
 #r1,
 #r2,
 #r3,
+#r4,
+#r5,
+#r6,
+#r7,
 #f1,
-#f2 {
+#f2,
+#f3,
+#MS,
+#ME,
+#CU {
     display: none;
 }
 
@@ -165,7 +173,7 @@ li {
     box-shadow: 0 0.25vw 0.49vw rgba(0, 0, 0, 0.1);
 }
 
-.rshape h1 {
+.rheading {
     position: absolute;
     font-family: 'Roboto', sans-serif;
     font-size: 5vw;
@@ -188,7 +196,12 @@ li {
 #map4,
 #map5,
 #map6,
-#map7 {
+#map7,
+#map8,
+#map9,
+#map10,
+#map11,
+#map12 {
     position: absolute;
     height: 30vw;
     width: 30vw;
@@ -249,3 +262,55 @@ li {
     min-width: 100%;
     min-height: 100%;
 }
+
+#MS {
+    height: 30vw;
+}
+
+#MS h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+#MS p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+}
+
+#ME {
+    height: 45vw;
+}
+
+#ME h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+#ME p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+}
+
+#CU {
+    height: 20vw;
+}
+
+#CU h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+#CU p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+}
+
